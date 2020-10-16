@@ -9,6 +9,7 @@ using System.Web.UI.WebControls;
 using Microsoft.AspNet.Identity;
 using System.Linq;
 using Lab01.Models;
+using Lab01.Logic;
 namespace Lab01
 {
     public partial class SiteMaster : MasterPage
@@ -68,10 +69,15 @@ namespace Lab01
             }
         }
 
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_PreRender(object sender, EventArgs e)
         {
-
+            using (ShoppingCartActions usersShoppingCart = new ShoppingCartActions())
+            {
+                string cartStr = string.Format("Cart ({0})", usersShoppingCart.GetCount());
+                cartCount.InnerText = cartStr;
+            }
         }
+
         public IQueryable<Category> GetCategories()
         {
             var _db = new Lab01.Models.ProductContext();
