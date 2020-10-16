@@ -1,0 +1,33 @@
+﻿[
+  {
+    "ID": "01",
+    "Name": "Z300",
+    "img": "https://ggstorage.oxii.vn/images/oxii-2019-7-29/728/kawasaki-z800-cu-gia-bao-nhieu-la-dep-4.jpg",
+    "Price": "100 tỷ"
+  },
+  {
+    "ID": "02",
+    "Name": "H2R",
+    "img": "https://imgwebikevn-8743.kxcdn.com/5oOHfexMLNTeZvmSKZDQBxIW6bM=/master/series/46_ninja-h2r.jpg",
+    "Price": "1 tỷ 390t"
+  },
+  {
+    "ID": "03",
+    "Name": "Z1000",
+    "img": "https://images.pexels.com/photos/1068478/pexels-photo-1068478.png?cs=srgb&dl=pexels-z-1068478.jpg&fm=jpg",
+    "Price": "900t"
+  },
+  {
+    "ID": "04",
+    "Name": "S100RR",
+    "img": "https://livingwithgravity.com/wp-content/uploads/2019/06/6831b724-850x560.jpg",
+    "Price": "1 tỷ 1"
+  },
+  {
+    "ID": "05",
+    "Name": "R6",
+    "img": "https://img-webike-370429.c.cdn77.org/images/mybike/365/28365_14185_L.jpg",
+    "Price": "700t"
+  }
+
+]
