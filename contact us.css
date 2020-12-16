@@ -1,0 +1,162 @@
+.banner{
+    background-image: url("../image/hero_contact.jpg");
+    background-repeat: round;
+    height: 400px;
+    width: 100%;
+
+}
+.banner1 h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 89px;
+    position: absolute;
+}
+.banner1 p{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 179px;
+    padding-left: 90px;
+    position: absolute;
+}
+.kem{
+    background-image: url("../image/blue_pink_background.jpg");
+    background-repeat: round;
+    width: 100%;
+    height: 1000px;
+    margin-top: -50px;
+}
+.kem h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.name input {
+    font-size: 14px;
+    border: 1px solid #e8e8eb;
+    margin-left: 300px;
+    height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 50px;
+}
+.name2 input {
+    font-size: 14px;
+    border: 1px solid #e8e8eb;
+    margin-left: 300px;
+    height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.name3 input {
+    font-size: 14px;
+    border: 1px solid #e8e8eb;
+    margin-left: 300px;
+    height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.name4 input {
+    font-size: 14px;
+    border: 1px solid #e8e8eb;
+    margin-left: 300px;
+    height: 48px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+.wpcf7-textarea{
+    font-size: 14px;
+    border: 1px solid #e8e8eb;
+    margin-left: 440px;
+    height: 180px;
+    width: 610px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+
+
+}
+.send input{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+    background: #c7254e;
+    display: inline-block;
+    padding: 20px 41px;
+    text-transform: uppercase;
+    margin-top: 82px;
+    margin-left: 681px;
+    font-family: sans-serif;
+}
+.anh{
+    width: 500px;
+    margin-left: 505px;
+
+}
+.kem2{
+    background-color: #fde1e2;
+    height: 650px;
+    width: 1502px;
+}
+.kem3{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #c7254e;
+    margin-left: 150px;
+    margin-top: -450px;
+}
+.kem3 h2{
+    font-family: 'Open Sans', sans-serif;}
+.kem3 p{
+    font-size: 20px;
+    color: #101010;
+    font-family: 'Open Sans', sans-serif;}
+.kkkk input{
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+    background: #c7254e;
+    display: inline-block;
+    padding: 20px 41px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.kem4{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #c7254e;
+    margin-left: 1028px;
+    margin-top: -50px;
+}
+.kem4 h2{
+    font-family: 'Open Sans', sans-serif;}
+.kem4 p{
+    font-size: 20px;
+    color: #101010;
+    font-family: 'Open Sans', sans-serif;}
+.lll input{
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #fff;
+    background: #c7254e;
+    display: inline-block;
+    padding: 20px 41px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+
