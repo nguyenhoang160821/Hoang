@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Edit user</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!--css-->
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+    <!--js-->
+    <script th:src="@{/js/min.js}"></script>
+
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <form method="post" th:action="@{/adduser}" th:object="${user}">
+                <input type="hidden" th:field="*{bookname}">
+                <div class="mb-3">
+                    <label for="bookname" class="form-label">BookName</label>
+                    <input type="text" class="form-control" name="name" id="bookname" th:field="${user.bookname}">
+                </div>
+                <div class="mb-3">
+                    <label for="publisher" class="form-label">Publisher</label>
+                    <input type="text" class="form-control" name="publisher" id="publisher" th:field="${user.publisher}">
+                </div>
+                <div class="mb-3">
+                    <label for="author" class="form-label">Author</label>
+                    <input type="text" class="form-control" name="author" id="author" th:field="*{author}">
+                </div>
+                <button type="submit" class="btn btn-primary">Edit user</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
